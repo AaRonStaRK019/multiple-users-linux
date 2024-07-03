@@ -1,7 +1,3 @@
-Here is a README for the `create_users.sh` script:
-
----
-
 # Create Users Script
 
 This bash script, `create_users.sh`, reads a text file containing employee usernames and group names, creates users and groups as specified, sets up home directories with appropriate permissions and ownership, generates random passwords for the users, and logs all actions to `/var/log/user_management.log`. Additionally, the generated passwords are securely stored in `/var/secure/user_passwords.csv`.
